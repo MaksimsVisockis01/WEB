@@ -41,10 +41,12 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  width: 90%;
+  width: 99.9%;
   height: 10%;
   
 }
+
+
 
 
 
@@ -81,7 +83,7 @@ body{
   .text{
     font-family: 'Press Start 2P', cursive;
     font-size: 200%;
-  }
+  } */
   
   #video{
     /* width: 90%;
@@ -92,11 +94,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    width: 90%;
-    height: 500px;
+    width: 90.9%;
+    min-height: 10%;
+    max-height:  60%;
     
   }
-}
+} 
 /* .download{
     border: none;
     padding: 20px 34px;

@@ -21,18 +21,21 @@ body{
 
 }
 
-header > #name{
-  color: white;
-  margin: auto;
-  padding-top: 1%;
-  text-align: center;
-  position: relative;
-  overflow-x:hidden;
-  width: fit-content;
+#name{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1px;
+  padding-top: 10px;
+  justify-content: center;
+  padding-top: 2%;
 }
+
+
 .text{
   font-family: 'Press Start 2P', cursive;
   font-size: 65px;
+  color: white
 }
 
 #video{
@@ -45,19 +48,27 @@ header > #name{
   width: 90%;
   height: 600px;
 }
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1px;
+  padding-top: 10px;
+  justify-content: center;
+}
+
 .row{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #262626;
   text-align: center;
   color: #FFFFFF;
   border-radius: 16px;
-  padding: 24px;
+  padding: 10px;
 
 }
 
-.about{
+#screenshots{
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -74,7 +85,6 @@ header > #name{
   gap: 1px;
   padding-top: 10px;
   justify-content: center;
-  
 }
 .button{
   border-radius: 16px;
